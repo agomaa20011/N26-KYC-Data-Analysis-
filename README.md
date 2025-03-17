@@ -39,26 +39,31 @@ Ensuring a seamless and compliant Know Your Customer (KYC) verification process 
 **1.	Declining Pass Rate**
 
 •	The overall pass rate is 85.38%, but a significant portion of customers fails at least once.
+
 •	The pass rate drops significantly on reattempts, with only 52% passing on the second attempt and 57% on the third attempt, indicating recurring issues.
 
 **2.	Document Verification Failures**
 
 •	A high number (44,002) of document verification failures were marked as "consider”.
+
 •	This suggests that either document quality is low (blurry, cropped, expired) or the verification criteria have become stricter.
 
 **3.	Facial Verification Failures**
 
 •	10,917 failures occurred due to "consider" results in facial similarity checks.
+
 •	Possible reasons: poor lighting, bad angles, facial obstructions (glasses, masks), or issues with the facial recognition system.
 
 **4.	Caution & Rejection Trends**
 
-•	The most common rejection reason is related to image integrity issues, with over 24,403 cases marked as "consider" or "unidentified."
+•	The most common rejection reason is related to image integrity issues, with over 24,403 cases marked as "consider" or "unidentified".
+
 •	Image quality issues also play a role, though not as severe.
 
 **5.	Time-Based Trends**
 
 •	The pass rate fluctuates over time, with some weeks seeing a drop in approvals.
+
 •	This may indicate seasonal patterns, changes in verification policies, or system inefficiencies.
 
 ## Recommendations 
@@ -68,11 +73,13 @@ Ensuring a seamless and compliant Know Your Customer (KYC) verification process 
 **Enhance Document Quality Checks**
 
 •	Implement real-time feedback during document upload (e.g., "Your image is blurry. Please retake.").
+
 •	Introduce pre-submission quality assessment for document clarity and completeness.
 
 **Expand Acceptable Document Types**
 
 •	If possible, allow alternative forms of verification (secondary documents, live agent review for borderline cases).
+
 •	Adjust system thresholds if minor document discrepancies cause excessive rejections.
 
 **Audit Veritas' Document Review Process**
@@ -85,11 +92,13 @@ Ensuring a seamless and compliant Know Your Customer (KYC) verification process 
 **Improve User Instructions**
 
 •	Provide better guidelines for users on how to take a proper selfie (good lighting, neutral expression, no glasses or masks).
+
 •	Consider video-based verification as an alternative to improve accuracy.
 
 **Enhance Facial Recognition Algorithm**
 
 •	Investigate if facial verification failures are due to model bias (e.g., struggles with certain skin tones, facial structures).
+
 •	Implement liveness detection to reduce false negatives caused by poor lighting or angles.
 
 **Allow Manual Review for Edge Cases**
@@ -101,11 +110,13 @@ Ensuring a seamless and compliant Know Your Customer (KYC) verification process 
 **Streamline Support for Failed Attempts**
 
 •	Offer immediate assistance (chatbot, FAQs, video guide) after a failed KYC attempt.
+
 •	Highlight common reasons for failure in the rejection message.
 
 **Proactive Support for Users on Reattempts**
 
 •	Identify customers who failed on the first attempt and offer assistance before they try again.
+
 •	Introduce a dedicated KYC helpline or in-app guidance to prevent repeated failures.
 
 ### 4)	Monitor trends and improve Reporting
@@ -113,11 +124,13 @@ Ensuring a seamless and compliant Know Your Customer (KYC) verification process 
 **Regularly Track Pass Rate Fluctuations**
 
 •	Investigate why pass rates fluctuate weekly—check if system updates, regulation changes, or data processing delays contribute.
+
 •	Implement dashboards to monitor real-time KYC trends.
 
 **Conduct Root Cause Analysis for "Consider" Cases**
 
 •	Examine why most failures are classified as "consider" rather than outright rejections.
+
 •	If "consider" results are overly cautious, adjust the confidence thresholds in the verification process.
 
 
